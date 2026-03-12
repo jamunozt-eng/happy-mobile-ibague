@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.footer {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .footer {
+    position: relative;
+  }
+}
